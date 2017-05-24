@@ -7,7 +7,6 @@
 //
 
 #import "HWHomeViewController.h"
-#import "TsetViewController.h"
 #import "HWSearchBar.h"
 
 @interface HWHomeViewController () <UINavigationControllerDelegate, UITextFieldDelegate>
@@ -19,22 +18,26 @@
 
 @implementation HWHomeViewController
 
+-(void)dealloc {
+    self.navigationController.delegate = nil;
+    self.navigationView.searchField.delegate = nil;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self resetNavnation];
+    [self resetNav];
     [self setupViews];
 }
 
 
 #pragma mark - setupViews
 //重置导航栏
-- (void)resetNavnation {
+- (void)resetNav {
     
     //设置导航控制器的代理为self
     self.navigationController.delegate = self;
     
-    self.navigationView = [[HWSearchBar alloc] initWithFrame:CGRectMake(0, 0, kWidth, 64)];
     self.navigationView.searchField.delegate = self;
     [self.view addSubview:self.navigationView];
     
@@ -50,7 +53,6 @@
 - (BOOL)textFieldShouldBeginEditing:(UITextField *)textField {
     
     NSLog(@"跳转搜索页面");
-    
     return NO;
 }
 
@@ -59,7 +61,12 @@
 
 
 #pragma mark - lazyLoading
-
+-(HWSearchBar *)navigationView {
+    if (!_navigationView) {
+        _navigationView = [[HWSearchBar alloc] initWithFrame:CGRectMake(0, 0, kWidth, 64)];
+    }
+    return _navigationView;
+}
 
 
 
@@ -83,13 +90,6 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (IBAction)homeController:(id)sender {
-    
-    TsetViewController *vc = [[TsetViewController alloc] init];
-    [self.navigationController pushViewController:vc animated:YES];
-    
 }
 
 @end

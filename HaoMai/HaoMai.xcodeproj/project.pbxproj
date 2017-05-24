@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		A84E99AC1ED537E10039575B /* HWSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E99AB1ED537E10039575B /* HWSearchBar.m */; };
 		A84E99AF1ED541440039575B /* HWTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E99AE1ED541440039575B /* HWTextField.m */; };
+		A84E99B51ED559FF0039575B /* HYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E99B21ED559FF0039575B /* HYViewController.m */; };
+		A84E99B61ED559FF0039575B /* UIViewController+NavBarHidden.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E99B41ED559FF0039575B /* UIViewController+NavBarHidden.m */; };
+		A84E99BF1ED55A340039575B /* HWMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E99BE1ED55A340039575B /* HWMineViewController.m */; };
+		A84E99C21ED55DEC0039575B /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E99C11ED55DEC0039575B /* SettingViewController.m */; };
+		A84E99D11ED568D00039575B /* HWDiscountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E99D01ED568D00039575B /* HWDiscountViewController.m */; };
+		A84E99D41ED568DD0039575B /* HWShoppingcartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E99D31ED568DD0039575B /* HWShoppingcartViewController.m */; };
 		A889E78D1ED43E57007FD910 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A889E78C1ED43E57007FD910 /* main.m */; };
 		A889E7961ED43E57007FD910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A889E7941ED43E57007FD910 /* Main.storyboard */; };
 		A889E7981ED43E57007FD910 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A889E7971ED43E57007FD910 /* Images.xcassets */; };
@@ -20,7 +26,6 @@
 		A889E8081ED44242007FD910 /* HWBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A889E8071ED44242007FD910 /* HWBaseNavigationController.m */; };
 		A889E80B1ED44269007FD910 /* HWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A889E80A1ED44269007FD910 /* HWBaseViewController.m */; };
 		A889E80E1ED4449B007FD910 /* HWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A889E80D1ED4449B007FD910 /* HWHomeViewController.m */; };
-		A889E8111ED44587007FD910 /* TsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A889E8101ED44587007FD910 /* TsetViewController.m */; };
 		A8A511261ED4695C009D692B /* UINavigationController+StatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A511251ED4695C009D692B /* UINavigationController+StatusBar.m */; };
 		A8A5112E1ED471AC009D692B /* DWQNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A511281ED471AC009D692B /* DWQNetworking.m */; };
 		A8A5112F1ED471AC009D692B /* DWQPicModle.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A5112D1ED471AC009D692B /* DWQPicModle.m */; };
@@ -52,6 +57,18 @@
 		A84E99AB1ED537E10039575B /* HWSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWSearchBar.m; sourceTree = "<group>"; };
 		A84E99AD1ED541440039575B /* HWTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTextField.h; sourceTree = "<group>"; };
 		A84E99AE1ED541440039575B /* HWTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTextField.m; sourceTree = "<group>"; };
+		A84E99B11ED559FF0039575B /* HYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYViewController.h; sourceTree = "<group>"; };
+		A84E99B21ED559FF0039575B /* HYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYViewController.m; sourceTree = "<group>"; };
+		A84E99B31ED559FF0039575B /* UIViewController+NavBarHidden.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavBarHidden.h"; sourceTree = "<group>"; };
+		A84E99B41ED559FF0039575B /* UIViewController+NavBarHidden.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavBarHidden.m"; sourceTree = "<group>"; };
+		A84E99BD1ED55A340039575B /* HWMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWMineViewController.h; sourceTree = "<group>"; };
+		A84E99BE1ED55A340039575B /* HWMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWMineViewController.m; sourceTree = "<group>"; };
+		A84E99C01ED55DEC0039575B /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		A84E99C11ED55DEC0039575B /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		A84E99CF1ED568D00039575B /* HWDiscountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWDiscountViewController.h; sourceTree = "<group>"; };
+		A84E99D01ED568D00039575B /* HWDiscountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWDiscountViewController.m; sourceTree = "<group>"; };
+		A84E99D21ED568DD0039575B /* HWShoppingcartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWShoppingcartViewController.h; sourceTree = "<group>"; };
+		A84E99D31ED568DD0039575B /* HWShoppingcartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWShoppingcartViewController.m; sourceTree = "<group>"; };
 		A889E7881ED43E57007FD910 /* HaoMai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaoMai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A889E78C1ED43E57007FD910 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A889E7951ED43E57007FD910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -78,8 +95,6 @@
 		A889E80A1ED44269007FD910 /* HWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWBaseViewController.m; sourceTree = "<group>"; };
 		A889E80C1ED4449B007FD910 /* HWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHomeViewController.h; sourceTree = "<group>"; };
 		A889E80D1ED4449B007FD910 /* HWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHomeViewController.m; sourceTree = "<group>"; };
-		A889E80F1ED44587007FD910 /* TsetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TsetViewController.h; sourceTree = "<group>"; };
-		A889E8101ED44587007FD910 /* TsetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TsetViewController.m; sourceTree = "<group>"; };
 		A8A511241ED4695C009D692B /* UINavigationController+StatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+StatusBar.h"; sourceTree = "<group>"; };
 		A8A511251ED4695C009D692B /* UINavigationController+StatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+StatusBar.m"; sourceTree = "<group>"; };
 		A8A511271ED471AC009D692B /* DWQNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQNetworking.h; sourceTree = "<group>"; };
@@ -115,6 +130,166 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A84E99B01ED559FF0039575B /* HYNavBarHidden */ = {
+			isa = PBXGroup;
+			children = (
+				A84E99B11ED559FF0039575B /* HYViewController.h */,
+				A84E99B21ED559FF0039575B /* HYViewController.m */,
+				A84E99B31ED559FF0039575B /* UIViewController+NavBarHidden.h */,
+				A84E99B41ED559FF0039575B /* UIViewController+NavBarHidden.m */,
+			);
+			path = HYNavBarHidden;
+			sourceTree = "<group>";
+		};
+		A84E99B71ED55A220039575B /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				A84E99B81ED55A220039575B /* Controller */,
+				A84E99B91ED55A220039575B /* Model */,
+				A84E99BA1ED55A220039575B /* Other */,
+				A84E99BB1ED55A220039575B /* Service */,
+				A84E99BC1ED55A220039575B /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		A84E99B81ED55A220039575B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A84E99BD1ED55A340039575B /* HWMineViewController.h */,
+				A84E99BE1ED55A340039575B /* HWMineViewController.m */,
+				A84E99C01ED55DEC0039575B /* SettingViewController.h */,
+				A84E99C11ED55DEC0039575B /* SettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A84E99B91ED55A220039575B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A84E99BA1ED55A220039575B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A84E99BB1ED55A220039575B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A84E99BC1ED55A220039575B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A84E99C31ED568A40039575B /* Discount */ = {
+			isa = PBXGroup;
+			children = (
+				A84E99C41ED568A40039575B /* Controller */,
+				A84E99C51ED568A40039575B /* Model */,
+				A84E99C61ED568A40039575B /* Other */,
+				A84E99C71ED568A40039575B /* Service */,
+				A84E99C81ED568A40039575B /* View */,
+			);
+			path = Discount;
+			sourceTree = "<group>";
+		};
+		A84E99C41ED568A40039575B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A84E99CF1ED568D00039575B /* HWDiscountViewController.h */,
+				A84E99D01ED568D00039575B /* HWDiscountViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A84E99C51ED568A40039575B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A84E99C61ED568A40039575B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A84E99C71ED568A40039575B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A84E99C81ED568A40039575B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A84E99C91ED568A40039575B /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				A84E99CA1ED568A40039575B /* Controller */,
+				A84E99CB1ED568A40039575B /* Model */,
+				A84E99CC1ED568A40039575B /* Other */,
+				A84E99CD1ED568A40039575B /* Service */,
+				A84E99CE1ED568A40039575B /* View */,
+			);
+			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		A84E99CA1ED568A40039575B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A84E99D21ED568DD0039575B /* HWShoppingcartViewController.h */,
+				A84E99D31ED568DD0039575B /* HWShoppingcartViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A84E99CB1ED568A40039575B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A84E99CC1ED568A40039575B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A84E99CD1ED568A40039575B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A84E99CE1ED568A40039575B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A889E77F1ED43E57007FD910 = {
 			isa = PBXGroup;
 			children = (
@@ -274,11 +449,14 @@
 			children = (
 				A889E7CC1ED43F86007FD910 /* Base */,
 				A889E7D81ED43F86007FD910 /* Logger */,
-				A889E7D21ED43F86007FD910 /* Home */,
 				A889E7DE1ED43F86007FD910 /* Login */,
 				A889E7E41ED43F86007FD910 /* Preview */,
 				A889E7EA1ED43F86007FD910 /* Public */,
 				A889E7F01ED43F86007FD910 /* Theory */,
+				A889E7D21ED43F86007FD910 /* Home */,
+				A84E99C31ED568A40039575B /* Discount */,
+				A84E99C91ED568A40039575B /* ShoppingCart */,
+				A84E99B71ED55A220039575B /* Mine */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -353,8 +531,6 @@
 			children = (
 				A889E80C1ED4449B007FD910 /* HWHomeViewController.h */,
 				A889E80D1ED4449B007FD910 /* HWHomeViewController.m */,
-				A889E80F1ED44587007FD910 /* TsetViewController.h */,
-				A889E8101ED44587007FD910 /* TsetViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -693,6 +869,7 @@
 		A889E8001ED43F86007FD910 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				A84E99B01ED559FF0039575B /* HYNavBarHidden */,
 			);
 			path = Vender;
 			sourceTree = "<group>";
@@ -801,6 +978,7 @@
 				TargetAttributes = {
 					A889E7871ED43E57007FD910 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = S36MBZ2R78;
 						ProvisioningStyle = Automatic;
 					};
 					A889E7A01ED43E57007FD910 = {
@@ -915,18 +1093,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A84E99B61ED559FF0039575B /* UIViewController+NavBarHidden.m in Sources */,
 				A889E80E1ED4449B007FD910 /* HWHomeViewController.m in Sources */,
 				A889E80B1ED44269007FD910 /* HWBaseViewController.m in Sources */,
 				A84E99AC1ED537E10039575B /* HWSearchBar.m in Sources */,
+				A84E99D11ED568D00039575B /* HWDiscountViewController.m in Sources */,
 				A889E78D1ED43E57007FD910 /* main.m in Sources */,
 				A8A5112F1ED471AC009D692B /* DWQPicModle.m in Sources */,
+				A84E99B51ED559FF0039575B /* HYViewController.m in Sources */,
+				A84E99BF1ED55A340039575B /* HWMineViewController.m in Sources */,
 				A889E8081ED44242007FD910 /* HWBaseNavigationController.m in Sources */,
 				A889E8011ED43F86007FD910 /* AppDelegate.m in Sources */,
 				A8A5112E1ED471AC009D692B /* DWQNetworking.m in Sources */,
 				A84E99AF1ED541440039575B /* HWTextField.m in Sources */,
 				A889E8051ED4421A007FD910 /* HWRootTabbarController.m in Sources */,
-				A889E8111ED44587007FD910 /* TsetViewController.m in Sources */,
+				A84E99D41ED568DD0039575B /* HWShoppingcartViewController.m in Sources */,
 				A8A511261ED4695C009D692B /* UINavigationController+StatusBar.m in Sources */,
+				A84E99C21ED55DEC0039575B /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1076,6 +1259,7 @@
 			baseConfigurationReference = 0C1EBD7A7F76CF6BB0218931 /* Pods-HaoMai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S36MBZ2R78;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HaoMai/HaoMai.pch";
 				INFOPLIST_FILE = HaoMai/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
@@ -1090,6 +1274,7 @@
 			baseConfigurationReference = 6B356D657EFBFE4A47EC6700 /* Pods-HaoMai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S36MBZ2R78;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HaoMai/HaoMai.pch";
 				INFOPLIST_FILE = HaoMai/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;

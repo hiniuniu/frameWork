@@ -8,7 +8,7 @@
 
 #import "HWBaseNavigationController.h"
 
-@interface HWBaseNavigationController () <UINavigationControllerDelegate>
+@interface HWBaseNavigationController ()
 
 @end
 
@@ -17,12 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [[UINavigationBar appearance] setBarTintColor:[UIColor whiteColor]];
-    
     //右滑手势返回
     self.interactivePopGestureRecognizer.delegate = (id)self;
-    
-    self.delegate = self;
 }
 
 // 表示的意思是:当挡墙控制器是根控制器了,那么就不接收触摸事件,只有当不是根控制器时才需要接收事件.

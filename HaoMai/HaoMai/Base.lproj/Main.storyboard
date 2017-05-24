@@ -59,16 +59,6 @@
                     <view key="view" contentMode="scaleToFill" id="BP1-s1-KGw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iXg-R6-vW5">
-                                <rect key="frame" x="164" y="215" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="homeController:" destination="Tc6-Ep-CId" eventType="touchUpInside" id="tkZ-j2-YmF"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="lgv-60-ea8"/>
@@ -134,10 +124,10 @@
             </objects>
             <point key="canvasLocation" x="697" y="880"/>
         </scene>
-        <!--View Controller-->
+        <!--Discount View Controller-->
         <scene sceneID="kIb-ok-2it">
             <objects>
-                <viewController id="TAk-gs-Jqw" sceneMemberID="viewController">
+                <viewController id="TAk-gs-Jqw" customClass="HWDiscountViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Dj4-sj-yD0"/>
                         <viewControllerLayoutGuide type="bottom" id="iJZ-An-Xvb"/>
@@ -153,10 +143,10 @@
             </objects>
             <point key="canvasLocation" x="1666" y="180"/>
         </scene>
-        <!--View Controller-->
+        <!--Shoppingcart View Controller-->
         <scene sceneID="zEs-gu-BaT">
             <objects>
-                <viewController id="V8B-we-PtZ" sceneMemberID="viewController">
+                <viewController id="V8B-we-PtZ" customClass="HWShoppingcartViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fYx-Wy-3SA"/>
                         <viewControllerLayoutGuide type="bottom" id="BAW-Up-avR"/>
@@ -172,10 +162,10 @@
             </objects>
             <point key="canvasLocation" x="1697" y="879"/>
         </scene>
-        <!--View Controller-->
+        <!--Mine View Controller-->
         <scene sceneID="y51-Z7-bOm">
             <objects>
-                <viewController id="h2p-O3-P1J" sceneMemberID="viewController">
+                <viewController id="h2p-O3-P1J" customClass="HWMineViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EsQ-4P-yd3"/>
                         <viewControllerLayoutGuide type="bottom" id="iS2-bf-aTD"/>
@@ -183,6 +173,16 @@
                     <view key="view" contentMode="scaleToFill" id="D4H-d6-mS4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yb0-yu-p48">
+                                <rect key="frame" x="70" y="318" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="pushSettAction:" destination="h2p-O3-P1J" eventType="touchUpInside" id="JmM-Xt-2F0"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="rdL-cK-t4l"/>

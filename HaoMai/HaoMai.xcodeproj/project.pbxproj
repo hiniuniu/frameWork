@@ -1,0 +1,1190 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A84E99AC1ED537E10039575B /* HWSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E99AB1ED537E10039575B /* HWSearchBar.m */; };
+		A84E99AF1ED541440039575B /* HWTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E99AE1ED541440039575B /* HWTextField.m */; };
+		A889E78D1ED43E57007FD910 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A889E78C1ED43E57007FD910 /* main.m */; };
+		A889E7961ED43E57007FD910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A889E7941ED43E57007FD910 /* Main.storyboard */; };
+		A889E7981ED43E57007FD910 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A889E7971ED43E57007FD910 /* Images.xcassets */; };
+		A889E79B1ED43E57007FD910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A889E7991ED43E57007FD910 /* LaunchScreen.storyboard */; };
+		A889E7A61ED43E57007FD910 /* HaoMaiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A889E7A51ED43E57007FD910 /* HaoMaiTests.m */; };
+		A889E7B11ED43E57007FD910 /* HaoMaiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A889E7B01ED43E57007FD910 /* HaoMaiUITests.m */; };
+		A889E8011ED43F86007FD910 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A889E7F91ED43F86007FD910 /* AppDelegate.m */; };
+		A889E8051ED4421A007FD910 /* HWRootTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A889E8041ED4421A007FD910 /* HWRootTabbarController.m */; };
+		A889E8081ED44242007FD910 /* HWBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A889E8071ED44242007FD910 /* HWBaseNavigationController.m */; };
+		A889E80B1ED44269007FD910 /* HWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A889E80A1ED44269007FD910 /* HWBaseViewController.m */; };
+		A889E80E1ED4449B007FD910 /* HWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A889E80D1ED4449B007FD910 /* HWHomeViewController.m */; };
+		A889E8111ED44587007FD910 /* TsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A889E8101ED44587007FD910 /* TsetViewController.m */; };
+		A8A511261ED4695C009D692B /* UINavigationController+StatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A511251ED4695C009D692B /* UINavigationController+StatusBar.m */; };
+		A8A5112E1ED471AC009D692B /* DWQNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A511281ED471AC009D692B /* DWQNetworking.m */; };
+		A8A5112F1ED471AC009D692B /* DWQPicModle.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A5112D1ED471AC009D692B /* DWQPicModle.m */; };
+		C343AA54DE2CB91698019CBE /* libPods-HaoMai.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 095CF9589BB4C572F4E74568 /* libPods-HaoMai.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A889E7A21ED43E57007FD910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A889E7801ED43E57007FD910 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A889E7871ED43E57007FD910;
+			remoteInfo = HaoMai;
+		};
+		A889E7AD1ED43E57007FD910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A889E7801ED43E57007FD910 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A889E7871ED43E57007FD910;
+			remoteInfo = HaoMai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		095CF9589BB4C572F4E74568 /* libPods-HaoMai.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HaoMai.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1EBD7A7F76CF6BB0218931 /* Pods-HaoMai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaoMai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaoMai/Pods-HaoMai.debug.xcconfig"; sourceTree = "<group>"; };
+		6B356D657EFBFE4A47EC6700 /* Pods-HaoMai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaoMai.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaoMai/Pods-HaoMai.release.xcconfig"; sourceTree = "<group>"; };
+		A84E99AA1ED537E10039575B /* HWSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWSearchBar.h; sourceTree = "<group>"; };
+		A84E99AB1ED537E10039575B /* HWSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWSearchBar.m; sourceTree = "<group>"; };
+		A84E99AD1ED541440039575B /* HWTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTextField.h; sourceTree = "<group>"; };
+		A84E99AE1ED541440039575B /* HWTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTextField.m; sourceTree = "<group>"; };
+		A889E7881ED43E57007FD910 /* HaoMai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaoMai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A889E78C1ED43E57007FD910 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A889E7951ED43E57007FD910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A889E7971ED43E57007FD910 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A889E79A1ED43E57007FD910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A889E79C1ED43E57007FD910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A889E7A11ED43E57007FD910 /* HaoMaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaoMaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A889E7A51ED43E57007FD910 /* HaoMaiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaoMaiTests.m; sourceTree = "<group>"; };
+		A889E7A71ED43E57007FD910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A889E7AC1ED43E57007FD910 /* HaoMaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaoMaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A889E7B01ED43E57007FD910 /* HaoMaiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaoMaiUITests.m; sourceTree = "<group>"; };
+		A889E7B21ED43E57007FD910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A889E7C61ED43F86007FD910 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		A889E7C71ED43F86007FD910 /* ThirdMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdMacro.h; sourceTree = "<group>"; };
+		A889E7C81ED43F86007FD910 /* URLMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLMacro.h; sourceTree = "<group>"; };
+		A889E7F81ED43F86007FD910 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A889E7F91ED43F86007FD910 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A889E8021ED43F93007FD910 /* HaoMai.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaoMai.pch; sourceTree = "<group>"; };
+		A889E8031ED4421A007FD910 /* HWRootTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWRootTabbarController.h; sourceTree = "<group>"; };
+		A889E8041ED4421A007FD910 /* HWRootTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWRootTabbarController.m; sourceTree = "<group>"; };
+		A889E8061ED44242007FD910 /* HWBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWBaseNavigationController.h; sourceTree = "<group>"; };
+		A889E8071ED44242007FD910 /* HWBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWBaseNavigationController.m; sourceTree = "<group>"; };
+		A889E8091ED44269007FD910 /* HWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWBaseViewController.h; sourceTree = "<group>"; };
+		A889E80A1ED44269007FD910 /* HWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWBaseViewController.m; sourceTree = "<group>"; };
+		A889E80C1ED4449B007FD910 /* HWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHomeViewController.h; sourceTree = "<group>"; };
+		A889E80D1ED4449B007FD910 /* HWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHomeViewController.m; sourceTree = "<group>"; };
+		A889E80F1ED44587007FD910 /* TsetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TsetViewController.h; sourceTree = "<group>"; };
+		A889E8101ED44587007FD910 /* TsetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TsetViewController.m; sourceTree = "<group>"; };
+		A8A511241ED4695C009D692B /* UINavigationController+StatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+StatusBar.h"; sourceTree = "<group>"; };
+		A8A511251ED4695C009D692B /* UINavigationController+StatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+StatusBar.m"; sourceTree = "<group>"; };
+		A8A511271ED471AC009D692B /* DWQNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQNetworking.h; sourceTree = "<group>"; };
+		A8A511281ED471AC009D692B /* DWQNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWQNetworking.m; sourceTree = "<group>"; };
+		A8A5112A1ED471AC009D692B /* DWQSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQSingleton.h; sourceTree = "<group>"; };
+		A8A5112C1ED471AC009D692B /* DWQPicModle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQPicModle.h; sourceTree = "<group>"; };
+		A8A5112D1ED471AC009D692B /* DWQPicModle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWQPicModle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A889E7851ED43E57007FD910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C343AA54DE2CB91698019CBE /* libPods-HaoMai.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A889E79E1ED43E57007FD910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A889E7A91ED43E57007FD910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A889E77F1ED43E57007FD910 = {
+			isa = PBXGroup;
+			children = (
+				A889E78A1ED43E57007FD910 /* HaoMai */,
+				A889E7A41ED43E57007FD910 /* HaoMaiTests */,
+				A889E7AF1ED43E57007FD910 /* HaoMaiUITests */,
+				A889E7891ED43E57007FD910 /* Products */,
+				ABE375629371B80F7E7BFA13 /* Pods */,
+				CFBD4BF443EA616EFEA7BCA8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A889E7891ED43E57007FD910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A889E7881ED43E57007FD910 /* HaoMai.app */,
+				A889E7A11ED43E57007FD910 /* HaoMaiTests.xctest */,
+				A889E7AC1ED43E57007FD910 /* HaoMaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A889E78A1ED43E57007FD910 /* HaoMai */ = {
+			isa = PBXGroup;
+			children = (
+				A889E7941ED43E57007FD910 /* Main.storyboard */,
+				A889E7BE1ED43F86007FD910 /* Expand */,
+				A889E7CB1ED43F86007FD910 /* Main */,
+				A889E7F61ED43F86007FD910 /* Resource */,
+				A889E7FF1ED43F86007FD910 /* SDKFile */,
+				A889E8001ED43F86007FD910 /* Vender */,
+				A889E7971ED43E57007FD910 /* Images.xcassets */,
+				A889E7991ED43E57007FD910 /* LaunchScreen.storyboard */,
+				A889E79C1ED43E57007FD910 /* Info.plist */,
+				A889E8021ED43F93007FD910 /* HaoMai.pch */,
+				A889E78B1ED43E57007FD910 /* Supporting Files */,
+			);
+			path = HaoMai;
+			sourceTree = "<group>";
+		};
+		A889E78B1ED43E57007FD910 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A889E78C1ED43E57007FD910 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A889E7A41ED43E57007FD910 /* HaoMaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				A889E7A51ED43E57007FD910 /* HaoMaiTests.m */,
+				A889E7A71ED43E57007FD910 /* Info.plist */,
+			);
+			path = HaoMaiTests;
+			sourceTree = "<group>";
+		};
+		A889E7AF1ED43E57007FD910 /* HaoMaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A889E7B01ED43E57007FD910 /* HaoMaiUITests.m */,
+				A889E7B21ED43E57007FD910 /* Info.plist */,
+			);
+			path = HaoMaiUITests;
+			sourceTree = "<group>";
+		};
+		A889E7BE1ED43F86007FD910 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				A889E7BF1ED43F86007FD910 /* Category */,
+				A889E7C01ED43F86007FD910 /* Const */,
+				A889E7C11ED43F86007FD910 /* Controls */,
+				A889E7C41ED43F86007FD910 /* Database */,
+				A889E7C51ED43F86007FD910 /* Macros */,
+				A889E7C91ED43F86007FD910 /* Network */,
+				A889E7CA1ED43F86007FD910 /* Tool */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		A889E7BF1ED43F86007FD910 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A8A511241ED4695C009D692B /* UINavigationController+StatusBar.h */,
+				A8A511251ED4695C009D692B /* UINavigationController+StatusBar.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A889E7C01ED43F86007FD910 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		A889E7C11ED43F86007FD910 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				A889E7C21ED43F86007FD910 /* CustomButton */,
+				A889E7C31ED43F86007FD910 /* CustomCell */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		A889E7C21ED43F86007FD910 /* CustomButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomButton;
+			sourceTree = "<group>";
+		};
+		A889E7C31ED43F86007FD910 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		A889E7C41ED43F86007FD910 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		A889E7C51ED43F86007FD910 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				A889E7C61ED43F86007FD910 /* Macro.h */,
+				A889E7C71ED43F86007FD910 /* ThirdMacro.h */,
+				A889E7C81ED43F86007FD910 /* URLMacro.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		A889E7C91ED43F86007FD910 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A8A511271ED471AC009D692B /* DWQNetworking.h */,
+				A8A511281ED471AC009D692B /* DWQNetworking.m */,
+				A8A511291ED471AC009D692B /* DWQSongleton */,
+				A8A5112B1ED471AC009D692B /* Modle */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A889E7CA1ED43F86007FD910 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		A889E7CB1ED43F86007FD910 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A889E7CC1ED43F86007FD910 /* Base */,
+				A889E7D81ED43F86007FD910 /* Logger */,
+				A889E7D21ED43F86007FD910 /* Home */,
+				A889E7DE1ED43F86007FD910 /* Login */,
+				A889E7E41ED43F86007FD910 /* Preview */,
+				A889E7EA1ED43F86007FD910 /* Public */,
+				A889E7F01ED43F86007FD910 /* Theory */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A889E7CC1ED43F86007FD910 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A889E7CD1ED43F86007FD910 /* BaseController */,
+				A889E7CE1ED43F86007FD910 /* BaseModel */,
+				A889E7CF1ED43F86007FD910 /* BaseOther */,
+				A889E7D01ED43F86007FD910 /* BaseService */,
+				A889E7D11ED43F86007FD910 /* BaseView */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A889E7CD1ED43F86007FD910 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				A889E8031ED4421A007FD910 /* HWRootTabbarController.h */,
+				A889E8041ED4421A007FD910 /* HWRootTabbarController.m */,
+				A889E8061ED44242007FD910 /* HWBaseNavigationController.h */,
+				A889E8071ED44242007FD910 /* HWBaseNavigationController.m */,
+				A889E8091ED44269007FD910 /* HWBaseViewController.h */,
+				A889E80A1ED44269007FD910 /* HWBaseViewController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		A889E7CE1ED43F86007FD910 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		A889E7CF1ED43F86007FD910 /* BaseOther */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseOther;
+			sourceTree = "<group>";
+		};
+		A889E7D01ED43F86007FD910 /* BaseService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseService;
+			sourceTree = "<group>";
+		};
+		A889E7D11ED43F86007FD910 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		A889E7D21ED43F86007FD910 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A889E7D31ED43F86007FD910 /* Controller */,
+				A889E7D41ED43F86007FD910 /* Model */,
+				A889E7D51ED43F86007FD910 /* Other */,
+				A889E7D61ED43F86007FD910 /* Service */,
+				A889E7D71ED43F86007FD910 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A889E7D31ED43F86007FD910 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A889E80C1ED4449B007FD910 /* HWHomeViewController.h */,
+				A889E80D1ED4449B007FD910 /* HWHomeViewController.m */,
+				A889E80F1ED44587007FD910 /* TsetViewController.h */,
+				A889E8101ED44587007FD910 /* TsetViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A889E7D41ED43F86007FD910 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A889E7D51ED43F86007FD910 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A889E7D61ED43F86007FD910 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A889E7D71ED43F86007FD910 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A84E99AA1ED537E10039575B /* HWSearchBar.h */,
+				A84E99AB1ED537E10039575B /* HWSearchBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A889E7D81ED43F86007FD910 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				A889E7D91ED43F86007FD910 /* Controller */,
+				A889E7DA1ED43F86007FD910 /* Model */,
+				A889E7DB1ED43F86007FD910 /* Other */,
+				A889E7DC1ED43F86007FD910 /* Service */,
+				A889E7DD1ED43F86007FD910 /* View */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		A889E7D91ED43F86007FD910 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A889E7DA1ED43F86007FD910 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A889E7DB1ED43F86007FD910 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A889E7DC1ED43F86007FD910 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A889E7DD1ED43F86007FD910 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A889E7DE1ED43F86007FD910 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A889E7DF1ED43F86007FD910 /* Controller */,
+				A889E7E01ED43F86007FD910 /* Model */,
+				A889E7E11ED43F86007FD910 /* Other */,
+				A889E7E21ED43F86007FD910 /* Service */,
+				A889E7E31ED43F86007FD910 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A889E7DF1ED43F86007FD910 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A889E7E01ED43F86007FD910 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A889E7E11ED43F86007FD910 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A889E7E21ED43F86007FD910 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A889E7E31ED43F86007FD910 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A889E7E41ED43F86007FD910 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				A889E7E51ED43F86007FD910 /* Controller */,
+				A889E7E61ED43F86007FD910 /* Model */,
+				A889E7E71ED43F86007FD910 /* Other */,
+				A889E7E81ED43F86007FD910 /* Service */,
+				A889E7E91ED43F86007FD910 /* View */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		A889E7E51ED43F86007FD910 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A889E7E61ED43F86007FD910 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A889E7E71ED43F86007FD910 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A889E7E81ED43F86007FD910 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A889E7E91ED43F86007FD910 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A889E7EA1ED43F86007FD910 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				A889E7EB1ED43F86007FD910 /* Controller */,
+				A889E7EC1ED43F86007FD910 /* Model */,
+				A889E7ED1ED43F86007FD910 /* Other */,
+				A889E7EE1ED43F86007FD910 /* Service */,
+				A889E7EF1ED43F86007FD910 /* View */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		A889E7EB1ED43F86007FD910 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A889E7EC1ED43F86007FD910 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A889E7ED1ED43F86007FD910 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A889E7EE1ED43F86007FD910 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A889E7EF1ED43F86007FD910 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A84E99AD1ED541440039575B /* HWTextField.h */,
+				A84E99AE1ED541440039575B /* HWTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A889E7F01ED43F86007FD910 /* Theory */ = {
+			isa = PBXGroup;
+			children = (
+				A889E7F11ED43F86007FD910 /* Controller */,
+				A889E7F21ED43F86007FD910 /* Model */,
+				A889E7F31ED43F86007FD910 /* Other */,
+				A889E7F41ED43F86007FD910 /* Service */,
+				A889E7F51ED43F86007FD910 /* View */,
+			);
+			path = Theory;
+			sourceTree = "<group>";
+		};
+		A889E7F11ED43F86007FD910 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A889E7F21ED43F86007FD910 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A889E7F31ED43F86007FD910 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A889E7F41ED43F86007FD910 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A889E7F51ED43F86007FD910 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A889E7F61ED43F86007FD910 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A889E7F71ED43F86007FD910 /* AppDelegate */,
+				A889E7FA1ED43F86007FD910 /* Audio */,
+				A889E7FB1ED43F86007FD910 /* Global */,
+				A889E7FC1ED43F86007FD910 /* Image */,
+				A889E7FD1ED43F86007FD910 /* JsHtmlCss */,
+				A889E7FE1ED43F86007FD910 /* Plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A889E7F71ED43F86007FD910 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A889E7F81ED43F86007FD910 /* AppDelegate.h */,
+				A889E7F91ED43F86007FD910 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A889E7FA1ED43F86007FD910 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		A889E7FB1ED43F86007FD910 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		A889E7FC1ED43F86007FD910 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		A889E7FD1ED43F86007FD910 /* JsHtmlCss */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JsHtmlCss;
+			sourceTree = "<group>";
+		};
+		A889E7FE1ED43F86007FD910 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		A889E7FF1ED43F86007FD910 /* SDKFile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDKFile;
+			sourceTree = "<group>";
+		};
+		A889E8001ED43F86007FD910 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		A8A511291ED471AC009D692B /* DWQSongleton */ = {
+			isa = PBXGroup;
+			children = (
+				A8A5112A1ED471AC009D692B /* DWQSingleton.h */,
+			);
+			path = DWQSongleton;
+			sourceTree = "<group>";
+		};
+		A8A5112B1ED471AC009D692B /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				A8A5112C1ED471AC009D692B /* DWQPicModle.h */,
+				A8A5112D1ED471AC009D692B /* DWQPicModle.m */,
+			);
+			path = Modle;
+			sourceTree = "<group>";
+		};
+		ABE375629371B80F7E7BFA13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C1EBD7A7F76CF6BB0218931 /* Pods-HaoMai.debug.xcconfig */,
+				6B356D657EFBFE4A47EC6700 /* Pods-HaoMai.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CFBD4BF443EA616EFEA7BCA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				095CF9589BB4C572F4E74568 /* libPods-HaoMai.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A889E7871ED43E57007FD910 /* HaoMai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A889E7B51ED43E57007FD910 /* Build configuration list for PBXNativeTarget "HaoMai" */;
+			buildPhases = (
+				FD42AE9FCB70E67FC51546C6 /* [CP] Check Pods Manifest.lock */,
+				A889E7841ED43E57007FD910 /* Sources */,
+				A889E7851ED43E57007FD910 /* Frameworks */,
+				A889E7861ED43E57007FD910 /* Resources */,
+				1CAEE3E3AA4098D26190BF3A /* [CP] Embed Pods Frameworks */,
+				DD6F6A629B42447C973C80AF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaoMai;
+			productName = HaoMai;
+			productReference = A889E7881ED43E57007FD910 /* HaoMai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A889E7A01ED43E57007FD910 /* HaoMaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A889E7B81ED43E57007FD910 /* Build configuration list for PBXNativeTarget "HaoMaiTests" */;
+			buildPhases = (
+				A889E79D1ED43E57007FD910 /* Sources */,
+				A889E79E1ED43E57007FD910 /* Frameworks */,
+				A889E79F1ED43E57007FD910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A889E7A31ED43E57007FD910 /* PBXTargetDependency */,
+			);
+			name = HaoMaiTests;
+			productName = HaoMaiTests;
+			productReference = A889E7A11ED43E57007FD910 /* HaoMaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A889E7AB1ED43E57007FD910 /* HaoMaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A889E7BB1ED43E57007FD910 /* Build configuration list for PBXNativeTarget "HaoMaiUITests" */;
+			buildPhases = (
+				A889E7A81ED43E57007FD910 /* Sources */,
+				A889E7A91ED43E57007FD910 /* Frameworks */,
+				A889E7AA1ED43E57007FD910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A889E7AE1ED43E57007FD910 /* PBXTargetDependency */,
+			);
+			name = HaoMaiUITests;
+			productName = HaoMaiUITests;
+			productReference = A889E7AC1ED43E57007FD910 /* HaoMaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A889E7801ED43E57007FD910 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Haowan;
+				TargetAttributes = {
+					A889E7871ED43E57007FD910 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					A889E7A01ED43E57007FD910 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A889E7871ED43E57007FD910;
+					};
+					A889E7AB1ED43E57007FD910 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A889E7871ED43E57007FD910;
+					};
+				};
+			};
+			buildConfigurationList = A889E7831ED43E57007FD910 /* Build configuration list for PBXProject "HaoMai" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A889E77F1ED43E57007FD910;
+			productRefGroup = A889E7891ED43E57007FD910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A889E7871ED43E57007FD910 /* HaoMai */,
+				A889E7A01ED43E57007FD910 /* HaoMaiTests */,
+				A889E7AB1ED43E57007FD910 /* HaoMaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A889E7861ED43E57007FD910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A889E79B1ED43E57007FD910 /* LaunchScreen.storyboard in Resources */,
+				A889E7981ED43E57007FD910 /* Images.xcassets in Resources */,
+				A889E7961ED43E57007FD910 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A889E79F1ED43E57007FD910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A889E7AA1ED43E57007FD910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CAEE3E3AA4098D26190BF3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaoMai/Pods-HaoMai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD6F6A629B42447C973C80AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaoMai/Pods-HaoMai-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD42AE9FCB70E67FC51546C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A889E7841ED43E57007FD910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A889E80E1ED4449B007FD910 /* HWHomeViewController.m in Sources */,
+				A889E80B1ED44269007FD910 /* HWBaseViewController.m in Sources */,
+				A84E99AC1ED537E10039575B /* HWSearchBar.m in Sources */,
+				A889E78D1ED43E57007FD910 /* main.m in Sources */,
+				A8A5112F1ED471AC009D692B /* DWQPicModle.m in Sources */,
+				A889E8081ED44242007FD910 /* HWBaseNavigationController.m in Sources */,
+				A889E8011ED43F86007FD910 /* AppDelegate.m in Sources */,
+				A8A5112E1ED471AC009D692B /* DWQNetworking.m in Sources */,
+				A84E99AF1ED541440039575B /* HWTextField.m in Sources */,
+				A889E8051ED4421A007FD910 /* HWRootTabbarController.m in Sources */,
+				A889E8111ED44587007FD910 /* TsetViewController.m in Sources */,
+				A8A511261ED4695C009D692B /* UINavigationController+StatusBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A889E79D1ED43E57007FD910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A889E7A61ED43E57007FD910 /* HaoMaiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A889E7A81ED43E57007FD910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A889E7B11ED43E57007FD910 /* HaoMaiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A889E7A31ED43E57007FD910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A889E7871ED43E57007FD910 /* HaoMai */;
+			targetProxy = A889E7A21ED43E57007FD910 /* PBXContainerItemProxy */;
+		};
+		A889E7AE1ED43E57007FD910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A889E7871ED43E57007FD910 /* HaoMai */;
+			targetProxy = A889E7AD1ED43E57007FD910 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A889E7941ED43E57007FD910 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A889E7951ED43E57007FD910 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A889E7991ED43E57007FD910 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A889E79A1ED43E57007FD910 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A889E7B31ED43E57007FD910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A889E7B41ED43E57007FD910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A889E7B61ED43E57007FD910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C1EBD7A7F76CF6BB0218931 /* Pods-HaoMai.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HaoMai/HaoMai.pch";
+				INFOPLIST_FILE = HaoMai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HW.HaoMai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A889E7B71ED43E57007FD910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B356D657EFBFE4A47EC6700 /* Pods-HaoMai.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HaoMai/HaoMai.pch";
+				INFOPLIST_FILE = HaoMai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HW.HaoMai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A889E7B91ED43E57007FD910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HaoMaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dk.HaoMaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaoMai.app/HaoMai";
+			};
+			name = Debug;
+		};
+		A889E7BA1ED43E57007FD910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HaoMaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dk.HaoMaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaoMai.app/HaoMai";
+			};
+			name = Release;
+		};
+		A889E7BC1ED43E57007FD910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HaoMaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dk.HaoMaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HaoMai;
+			};
+			name = Debug;
+		};
+		A889E7BD1ED43E57007FD910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HaoMaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dk.HaoMaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HaoMai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A889E7831ED43E57007FD910 /* Build configuration list for PBXProject "HaoMai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A889E7B31ED43E57007FD910 /* Debug */,
+				A889E7B41ED43E57007FD910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A889E7B51ED43E57007FD910 /* Build configuration list for PBXNativeTarget "HaoMai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A889E7B61ED43E57007FD910 /* Debug */,
+				A889E7B71ED43E57007FD910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A889E7B81ED43E57007FD910 /* Build configuration list for PBXNativeTarget "HaoMaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A889E7B91ED43E57007FD910 /* Debug */,
+				A889E7BA1ED43E57007FD910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A889E7BB1ED43E57007FD910 /* Build configuration list for PBXNativeTarget "HaoMaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A889E7BC1ED43E57007FD910 /* Debug */,
+				A889E7BD1ED43E57007FD910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A889E7801ED43E57007FD910 /* Project object */;
+}

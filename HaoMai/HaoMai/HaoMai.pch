@@ -1,0 +1,32 @@
+//
+//  HaoMai.pch
+//  HaoMai
+//
+//  Created by Meng Fan on 2017/5/23.
+//  Copyright © 2017年 Haowan. All rights reserved.
+//
+
+#ifndef HaoMai_pch
+#define HaoMai_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//宏
+#import "Macro.h"
+#import "ThirdMacro.h"
+#import "URLMacro.h"
+
+//第三方
+#import "Masonry.h"
+#import "AFNetworking.h"
+#import "YYModel.h"
+
+
+//Tool
+#import "DWQNetworking.h"   //网络请求
+
+//category
+#import "UINavigationController+StatusBar.h"
+
+#endif /* HaoMai_pch */

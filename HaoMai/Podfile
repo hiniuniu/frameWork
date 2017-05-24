@@ -1,0 +1,11 @@
+platform :ios, ‘8.3’ 
+
+target ‘HaoMai’ do
+
+pod 'SDWebImage'
+pod 'SDCycleScrollView' ,'~> 1.65’
+pod "AFNetworking"
+pod ‘Masonry’
+pod 'YYModel'
+
+end
